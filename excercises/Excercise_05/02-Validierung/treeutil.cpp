@@ -4,14 +4,14 @@
 #include <vector>
 
 using namespace std;
-//20, 12, 34, 9, 19, 29
+
 bool TreeUtil::isBinarySearchTree(vector<int> values) {
   return isBinarySearchTree(values, 0, INT_MIN, INT_MAX);
 }
 
 bool TreeUtil::isBinarySearchTree(vector<int> values, int startNode, int min, int max) {
   // Check root
-    cout << "here" <<endl;
+    cout << "recursive call" <<endl;
   int root = values.at(startNode);
   cout<< "min: " <<min <<endl;
   cout << "max: " <<max <<endl;
