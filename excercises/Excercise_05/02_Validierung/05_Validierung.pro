@@ -4,8 +4,4 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp \
-    treeutil.cpp
-
-HEADERS += \
-    treeutil.h
+        main.cpp
