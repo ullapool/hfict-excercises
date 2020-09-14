@@ -15,6 +15,7 @@ int main(int argc, char const *argv[]) {
       else {
           cout << "It is not a BST";
       }
+  cout << "Solution 2" << endl;
 
   return 0;
 }
